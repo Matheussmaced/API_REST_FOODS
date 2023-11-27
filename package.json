@@ -1,0 +1,16 @@
+{
+  "name": "api_rest_foods",
+  "version": "1.0.0",
+  "description": "- [x] O Usuário deve poder criar uma nova transação;\r - [ ] O usuário deve poder obter um resumo da sua conta;\r - [x] O usuário deve poder listar todas transações que já ocorreram;\r - [x] O usuário deve poder visualizar uma transação única",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}
