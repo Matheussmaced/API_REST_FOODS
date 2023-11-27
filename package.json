@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "- [x] O Usuário deve poder criar uma nova transação;\r - [ ] O usuário deve poder obter um resumo da sua conta;\r - [x] O usuário deve poder listar todas transações que já ocorreram;\r - [x] O usuário deve poder visualizar uma transação única",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "fix": "npx prettier --write ."
+    "fix": "npx prettier --write .",
+    "knex": "ts-node ./node_modules/knex/bin/cli.js"
   },
   "keywords": [],
   "author": "",
@@ -15,10 +15,13 @@
     "@rocketseat/eslint-config": "^2.1.0",
     "@types/node": "^20.10.0",
     "eslint": "^8.54.0",
+    "ts-node": "^10.9.1",
     "tsx": "^4.5.0",
     "typescript": "^5.3.2"
   },
   "dependencies": {
-    "fastify": "^4.24.3"
+    "fastify": "^4.24.3",
+    "knex": "^3.0.1",
+    "sqlite3": "^5.1.6"
   }
 }
