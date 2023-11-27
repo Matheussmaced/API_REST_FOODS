@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "fix": "npx prettier --write .",
-    "knex": "ts-node ./node_modules/knex/bin/cli.js"
+    "knex": "ts-node ./node_modules/knex/bin/cli.js",
+    "knex-create-migrate":"run knex -- migrate:latest"
   },
   "keywords": [],
   "author": "",
