@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "fix": "npx prettier --write .",
-    "knex": "ts-node ./node_modules/knex/bin/cli.js",
-    "knex-create-migrate":"run knex -- migrate:latest"
+    "knex": "ts-node ./node_modules/knex/bin/cli.js"
   },
   "keywords": [],
   "author": "",
@@ -21,8 +20,10 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "fastify": "^4.24.3",
     "knex": "^3.0.1",
-    "sqlite3": "^5.1.6"
+    "sqlite3": "^5.1.6",
+    "zod": "^3.22.4"
   }
 }
