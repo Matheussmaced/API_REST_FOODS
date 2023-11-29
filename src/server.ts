@@ -1,10 +1,13 @@
 import fastify from 'fastify'
 import { env } from './env'
-import { usersRoutes } from './routes/users'
+import { getUsersRoutes } from './routes/user/get-user'
+import { postUsersRoutes } from './routes/user/post-user'
 
 const app = fastify()
 
-app.register(usersRoutes)
+app.register(getUsersRoutes)
+
+app.register(postUsersRoutes)
 
 app
   .listen({
