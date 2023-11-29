@@ -3,7 +3,7 @@ import { knex } from '../../database'
 import { z } from 'zod'
 import { PostUserDto } from '../../dto/user/post-user.dto'
 
-export const postUserUseCase = async (body: PostUserDto) => {
+export const postUserUseCase = async (body: PostUserDto, sessionId: string) => {
   const createUserSchema = z.object({
     name: z.string(),
     last_name: z.string(),
@@ -18,5 +18,6 @@ export const postUserUseCase = async (body: PostUserDto) => {
     // eslint-disable-next-line
     last_name,
     email,
+    session_Id: sessionId,
   })
 }

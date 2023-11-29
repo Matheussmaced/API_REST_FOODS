@@ -2,11 +2,13 @@ import fastify from 'fastify'
 import { env } from './env'
 import { getUsersRoutes } from './routes/user/get-user'
 import { postUsersRoutes } from './routes/user/post-user'
+import cookie from '@fastify/cookie'
 
 const app = fastify()
 
-app.register(getUsersRoutes)
+app.register(cookie)
 
+app.register(getUsersRoutes)
 app.register(postUsersRoutes)
 
 app
