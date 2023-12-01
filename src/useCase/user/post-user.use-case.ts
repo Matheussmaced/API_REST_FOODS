@@ -10,7 +10,7 @@ export const postUserUseCase = async (body: PostUserDto, sessionId: string) => {
     email: z.string(),
   })
   // eslint-disable-next-line
-  const { name, last_name, email } = createUserSchema.parse(body)
+  const { name, last_name, email} = createUserSchema.parse(body)
 
   await knex('users').insert({
     id: randomUUID(),

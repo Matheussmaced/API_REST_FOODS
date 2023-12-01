@@ -1,0 +1,41 @@
+[33mcommit d57625e23a2379b007777cbb2e62ce5dbc9b480b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Matheussmaced <mateusbyakuya3@gmail.com>
+Date:   Thu Nov 30 11:28:28 2023 -0300
+
+    feat: creating new migrate
+
+[33mcommit da6087c282a51331eb34c2bc199e1005d7720beb[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Matheussmaced <mateusbyakuya3@gmail.com>
+Date:   Wed Nov 29 20:51:43 2023 -0300
+
+    fix: resolved problem of import
+
+[33mcommit a7fc149d9a3d81eaada930e7c56215813de49e4d[m
+Author: Matheussmaced <mateusbyakuya3@gmail.com>
+Date:   Wed Nov 29 20:47:53 2023 -0300
+
+    refact: creating new folder for mels in dto and useCase
+
+[33mcommit 1d71f77609e65d94b2e4cc63fec1059300dc166d[m
+Author: Matheussmaced <mateusbyakuya3@gmail.com>
+Date:   Wed Nov 29 20:44:56 2023 -0300
+
+    refect: implementing solid principles and design patters in route getMeals
+
+[33mcommit fe169e434193b4651e45d37822eca1658437d869[m
+Author: Matheussmaced <mateusbyakuya3@gmail.com>
+Date:   Wed Nov 29 20:37:15 2023 -0300
+
+    feat: creating dto for get-meals-of-user.ts
+
+[33mcommit 44f339b9c521a27f6c4ace2933f075f4cdadcf07[m
+Author: Matheussmaced <mateusbyakuya3@gmail.com>
+Date:   Wed Nov 29 20:33:26 2023 -0300
+
+    feat: creating new migrate and route meals
+
+[33mcommit a31c8917944f32befcc32e0cc4a94297f7d86544[m
+Author: Matheussmaced <mateusbyakuya3@gmail.com>
+Date:   Wed Nov 29 11:52:28 2023 -0300
+
+    feat: checking user by id
